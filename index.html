@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .ele{
+            background-color: aquamarine;
+        }
+        .img{
+            border: 2px solid black;
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
+        }
+        .st_img{
+            height: 200px;
+        }
+
+        .st_img2{
+            height:200px;
+
+        }
+        .text{
+            display: flex;
+            justify-content:flex-start;
+            align-items: flex-start;
+            font-size: 30px;
+        }
+
+        .button{
+            border: 2px solid black;
+            margin-top: 5px;
+            padding: 5px;
+
+        }
+        .button1{
+            border: 2px solid black;
+            margin-top: 5px;
+            padding: 5px;
+
+        }          
+    .button2{
+        border: 2px solid black;
+        margin-top: 5px;
+        padding: 5px;
+    }
+    .button3{
+        border: 2px solid black;
+        margin-top: 5px;
+        padding: 5px;
+    }
+
+    
+    </style>
+</head>
+<body>
+    <!-- lab in class -->
+<div class="img" id ="i">
+    <p class="text" onclick="img1()" id="text"> Hello</p>
+    <img class="st_img" onclick="img1()" src="Spreadsheets Customizable Cartoon Illustrations _ Bro Style.png">
+    <img class="st_img2" onclick="img2()" src="bac.png">
+</div>
+
+<button onclick="myfun()">click</button>
+
+<!-- lab -->
+<!-- q1 -->
+<div class="button" id ="b">
+    <p onclick="buttonFun()" id="text1"> Hello</p>
+    <button onclick="buttonFun()">click</button>
+</div>
+
+<!-- End q1  -->
+
+<!-- Q2 -->
+
+<div class="button1" id ="bu">
+    <p onclick="buttonIncrece()" id="text2"> Hello</p>
+    <button onclick="buttonIncrece()">increase Text</button>
+    <button onclick="buttonDecrese()">Decrease Text</button>
+</div>
+
+<!-- End Q2 -->
+
+<!-- Q3 -->
+<div class="button2" id ="but">
+    <p onclick="changeBakground()" id="backgroundColor"> Hello</p>
+    <button onclick="changeBakground()">Change background color</button>
+</div>
+<!-- End Q3 -->
+
+<!-- Q4 -->
+<div class="button3" id ="butt">
+
+    <img class="st_img" id="img_1" src="Spreadsheets Customizable Cartoon Illustrations _ Bro Style.png">
+    <button onclick="changeimg()">Change image</button>
+
+</div>
+<!-- End Q4 -->
+
+<!-- Q5 -->
+<div class="button4" id ="button">
+
+    <button onclick="showEvent()"> Show date</button>
+</div>
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
